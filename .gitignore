@@ -47,7 +47,7 @@ SourceArt/**/*.tga
 
 # Binary Files
 Tankogeddon/Binaries/*
-Tankogeddon/Plugins/*Tankogeddon/Binaries/*
+Plugins/*/Binaries/*
 
 # Builds
 Tankogeddon/Build/*
@@ -68,7 +68,7 @@ Tankogeddon/Saved/*
 
 # Compiled source files for the engine to use
 Tankogeddon/Intermediate/*
-Tankogeddon/Plugins/*Tankogeddon//Intermediate/*
+Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 Tankogeddon/DerivedDataCache/*
