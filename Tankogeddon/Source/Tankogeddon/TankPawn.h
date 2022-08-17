@@ -40,6 +40,7 @@ protected:
 	float RotationSpeed = 100.0f;
 
 	float targetForwardAxisValue = 0.0f;
+	float targetRightAxisValue = 0.0f;
 
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -49,4 +50,16 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	void MoveForward(float Value);
+	void MoveRight(float Value);
+	
+private:
+	void setForwardMove(float DeltaTime); // home task lesson 2.1
+	void setRightMove(float DeltaTime); // home task lesson 2.2
 };
+
+
+
+
+
+
+
