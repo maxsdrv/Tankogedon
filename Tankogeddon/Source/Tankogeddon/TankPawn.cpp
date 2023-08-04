@@ -59,6 +59,11 @@ void ATankPawn::MoveRight(float Value) {
 	targetRightAxisValue = Value;
 }
 
+void ATankPawn::RotateRight(float AxisValue)
+{
+
+}
+
 void ATankPawn::setRightMove(float DeltaTime)
 {
 	FVector CurrentPosition = GetActorLocation();

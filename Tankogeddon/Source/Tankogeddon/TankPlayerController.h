@@ -13,16 +13,16 @@ UCLASS()
 class TANKOGEDDON_API ATankPlayerController : public APlayerController
 {
 	GENERATED_BODY()
-	
+
 public:
 	UPROPERTY()
+	ATankPlayerController() = default;
 	class ATankPawn* TankPawn;
-
 	void SetupInputComponent() override;
 
 protected:
 	void BeginPlay() override;
-
 	void MoveForward(float Value);
 	void MoveRight(float Value);
+	void RotateRight(float AxisValue);
 };

@@ -51,6 +51,7 @@ public:
 
 	void MoveForward(float Value);
 	void MoveRight(float Value);
+	void RotateRight(float AxisValue);
 	
 private:
 	void setForwardMove(float DeltaTime); // home task lesson 2.1
